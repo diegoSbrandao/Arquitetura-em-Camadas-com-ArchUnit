@@ -14,8 +14,7 @@ O projeto segue uma arquitetura em camadas clássica:
 br.com.diegobrandao.archunit.ArchUnit/
 ├── controller/      (Camada de apresentação)
 ├── service/         (Camada de serviço/negócio)
-├── repository/      (Camada de acesso a dados - interfaces)
-│   └── impl/        (Implementações concretas dos repositórios)
+├── repository/      (Camada de acesso a dados - interfaces)  
 └── domain/          (Camada de domínio - modelos)
 ```
 
@@ -25,8 +24,7 @@ br.com.diegobrandao.archunit.ArchUnit/
    - Exemplo: `User.java`
 
 2. **Repository (Repositório)**: Interfaces que definem o contrato para acesso a dados
-   - Exemplo: `UserRepository.java` (interface)
-   - Implementação: `InMemoryUserRepository.java` 
+   - Exemplo: `UserRepository.java` (interface)   
 
 3. **Service (Serviço)**: Regras de negócio e orquestração
    - Exemplo: `UserService.java`
