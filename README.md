@@ -149,14 +149,16 @@ As seguintes violações da arquitetura em camadas foram encontradas:
 ===============================================
 ```
 
-Essa formatação rica e informativa torna imediatamente claro:
+Essa formatação informativa torna imediatamente claro:
 - Qual método está violando a arquitetura
 - Qual regra específica foi quebrada
 - Quais são as regras arquiteturais corretas que deveriam ser seguidas
 
 ## Relacionamento com o Artigo
 
-Este exemplo serve como demonstração prática dos conceitos apresentados no artigo "ArchUnit: Garantindo a Integridade Arquitetural de Aplicações Java", especialmente:
+Este exemplo serve como demonstração prática dos conceitos apresentados no artigo "ArchUnit: Garantindo a Integridade Arquitetural de Aplicações Java", especialmente: 
+
+Link do artigo: https://dev.to/diegobrandao/archunit-garantindo-a-integridade-arquitetural-de-aplicacoes-java-29ec
 
 - Implementação de uma arquitetura em camadas
 - Configuração de testes com ArchUnit
